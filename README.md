@@ -1,5 +1,7 @@
 # 104isgd-qa-testcafe-workshop
 
+QA 學習 testcafe 使用 
+
 ## 資料夾內容
 
 ```
