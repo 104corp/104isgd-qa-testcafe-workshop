@@ -12,7 +12,7 @@
 │    │   
 │    └── intermediate # 中階(全自動不寫自定義 function)
 │       
-└── first 開發環境安裝
+└── # first 開發環境安裝
 ```
 
 ## 課程大綱
