@@ -8,7 +8,7 @@ for (let num = 1; num <= 9; num++){
   let result = "";
   //倍數到等於因數為止
   for(let next = 1; next <= num; next++){
-    result = result + num + "*" + next + "=" + num * next
+    result = result + num + "*" + next + "=" + num * next + '\t'
   }
     console.log(result);
 }
