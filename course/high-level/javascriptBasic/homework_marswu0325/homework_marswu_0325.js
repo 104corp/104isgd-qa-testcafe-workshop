@@ -10,16 +10,17 @@
 
 function pyramid(floor) {
 for(let row=0;row<floor;row++){
-    let str="";
+    let str='';
     for(let column=0;column<(2*(floor-1)+1);column++){
-        if(Math.abs(floor-1-column)<row+1)
-           str+="*";
-        else
-           str+=" ";
+        if(Math.abs(floor-1-column)<row+1){
+           str+='*';
+        }
+        else{
+           str+=' ';
+        }
     }
     console .log(str);
 }
 }
 
 pyramid(5);
-
