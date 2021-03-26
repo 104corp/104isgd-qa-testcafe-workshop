@@ -6,10 +6,10 @@
 // 每當跑完一次Multiplicand的迴圈,就印出str
 
 
-for(let Multiplicand=1;Multiplicand<10;Multiplicand++){
-    let str="";
-    for(let multiplier=1;multiplier<=Multiplicand;multiplier++){
-        str+=Multiplicand + "*" + multiplier + "=" + multiplier*Multiplicand + '\t';              
+for(let multiplicand=1;multiplicand<10;multiplicand++){
+    let str='';
+    for(let multiplier=1;multiplier<=multiplicand;multiplier++){
+        str+=multiplicand + '*' + multiplier + '=' + multiplier*multiplicand + '\t';              
     }
     console.log(str);  
 }
